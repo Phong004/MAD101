@@ -145,7 +145,9 @@
 - Đường đi hamilton (paths) giống ở trên nhma đầu cuối khác nhau.
 
 **chu trình Euler k suy ra đc chu trình Hamilton và ngược lại cũng v**
+
 **Định lí**
+
 **_Dirac's_:**
 Một đồ thị có chu trình Hamilton khi:
 
