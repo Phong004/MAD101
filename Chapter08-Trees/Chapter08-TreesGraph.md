@@ -3,15 +3,14 @@
 - Cây là một đồ thị vô hướng liên thông mà không có chu trình đơn.
     + Liên thông vô hướng
     + Không có chu trình đơn
-<img src="Pictures_Source/Screenshot 2024-11-02 002855.png" alt="Tree Graph">
+![Tree Graph](<Pictures_Source/Screenshot 2024-11-02 002855.png>)
 
 - **Định lý**
 - Một đồ thị vô hướng là cây ...
-
 ## Cây có gốc
 - **Định nghĩa**
 - Một cây có gốc là cây có một đỉnh là gốc và mỗi cạnh đi ra trực tiếp từ gốc.
-<img src="Pictures_Source\Screenshot 2024-11-02 003946.png" alt="Root Tree">
+![Root tree](<Pictures_Source\Screenshot 2024-11-02 003946.png>)
 
 ## Cây m phân
 - **Định nghĩa**
@@ -26,41 +25,40 @@
 2. Với mọi cây m phân</br>
     n = i + l
 3. Với mọi cây m phân đủ</br>
-    n = mi + 1</br>
-    l = (m - 1)i + 1
+    n = $$m*i$$ + 1</br>
+    l = $$(m - 1)*i$$ + 1
 - n là số nodes
 - i là số giao điểm
 - l là số lá
     - **VD 1: How many leaves are there in a full 5-ary tree with 56 nodes?**</br>
         m = 5 (full), n = 56</br>
-        i = (n - 1) / m = 11</br>
+        $$i = \frac{n - 1}{m} = 11$$</br>
         l = 55 - 11 = 44</br>
     - **VD 2: How many leaves are there in a full 5-ary tree with 56 nodes?**</br>
         m = 3 (full), l = 27</br>
-        i = (l - 1) / (m - 1) = 13</br>
-        |E| = 13 * 3 = 39</br>
+        $$i = \frac{l - 1} / \frac{m - 1} = 13$$</br>
+        |E| = $$13 * 3$$ = 39</br>
         n = 39 + 1 = 40</br>
-
 ### Chiều cao và cấp của cây có gốc
 - **Định nghĩa**
 - ***Level (mức)*** của một đỉnh trong một cây có gốc là chiều dài từ một gốc tới một đỉnh
 - ***Level of the root*** định nghĩa là 0
 - ***Height*** là ***level*** tối đa của các đỉnh.
-
 ![Cây có gốc có level và height](<Pictures_Source/Screenshot 2024-11-02 at 00-41-01 Chapter 8 Trees - MAD101 - Chapter08_MAD.png>)
-
 - **Định lý**
+- Một cây m-phân có chiều cao *h* cân bằng khi tất cả các nút lá đều nằm tại *h* hoặc *h-1*
 - Với một cây m-phân thì</br>
-    $$l \leq m^{th} => h \ge \lceil\log_m(l)\rceil$$
+    $$l \leq m^{h} => h \ge \lceil\log_m(l)\rceil$$
 ## Cây nhị phân
 - **Định nghĩa**
 - Cây nhị phân là cây có cây con trái chứa các giá trị nhỏ hơn giá trị gốc và cây con phải chứa các giá trị lớn hơn cây con phải.
+
 ## Mã tiền tố
 - **Định nghĩa**
 - Mã tiền tố là mã mà sâu bit mã hóa không chứa các giá trị bị trùng lặp.
 - **Thuật toán Huffman**
     
-    google      ASCII=6 * 8 = 48 bits
+    google      ASCII=$$6 * 8$$ = 48 bits
     
     Bước 1:
     |char|g|o|l|e|
@@ -88,7 +86,7 @@
         <td>00</td>
     </tr>
     <tr>
-        <td colspan="2">12</td>
+        <td colspan="2" style="text-align:center;">12</td>
     </tr>
 </table>
 
