@@ -4,6 +4,7 @@
         height: auto;
     }
 </style>
+
 ## Đồ thị cây
 - **Định nghĩa**
 - Cây là một đồ thị vô hướng liên thông mà không có chu trình đơn.
