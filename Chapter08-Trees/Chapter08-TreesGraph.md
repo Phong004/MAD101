@@ -51,7 +51,7 @@
 
 - **Định lý**
 - Với một cây m-phân thì</br>
-    $$l \leq m^{th} => h \ge \ceil*{\log_m(l)}\$$
+    $$l \leq m^{th} => h \ge \lceil\log_m(l)\rceil$$
 ## Cây nhị phân
 - **Định nghĩa**
 - Cây nhị phân là cây có cây con trái chứa các giá trị nhỏ hơn giá trị gốc và cây con phải chứa các giá trị lớn hơn cây con phải.
