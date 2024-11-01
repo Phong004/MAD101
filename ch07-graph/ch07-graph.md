@@ -1,6 +1,6 @@
 ## Các dạng đồ thị
 
-![alt text](ch07-picture.jpg)
+![alt text](Pictures_Source/ch07-picture.jpg)
 
 ## Đồ thị lưỡng phân (Bipartite)
 
@@ -18,14 +18,14 @@
 ## Các đỉnh kề (Adjacency List)
 
 **Đồ thị vô hướng**
-![alt text](ch07-picture.png)
+![alt text](Pictures_Source/ch07-picture.png)
 
 - Mỗi hình chỉ cho ra được một bảng như này(quang hệ one to one)
 - Vertex: liệt kê các đỉnh
 - Adjacent Vertives: đỉnh kề với nó
 
 **Đồ thị có hướng**
-![alt text](cccc.png)
+![alt text](Pictures_Source/cccc.png)
 
 - Mỗi hỉnh chỉ cho ra được một bảng như này
 - Initial Vertex: Các đỉnh của nó
@@ -35,11 +35,11 @@
 ## Ma trận kề (Adjacency Matrices)
 
 **Đồ thị vô hướng**
-![alt text](image.png)
+![alt text](Pictures_Source/image.png)
 
 - Mối quan hệ giữa đồ thị và ma trận này cũng là one to one
 - chúng ta sẽ đếm só cạnh giữa các đỉnh đang xét xog điền vào ma trận
-  ![alt text](image-1.png)
+  ![alt text](Pictures_Source/image-1.png)
 - Các ma trận này đều vuông, đối xứng và có giá trị k âm
 - Trên đường chéo chính (tại điểm trùng nhau vd aa bb cc dd) sẽ là số vòng lặp (khuyên) tại điểm đó
 - Để vẽ được hình từ đồ thị thì chúng ta cần bt số đỉnh, số cạnh, và dãy bậc
@@ -49,7 +49,7 @@
 
 ## Ma trận liên thuộc (Incidence Matrices)
 
-![alt text](Screenshot%202024-10-25%20133548.png)
+![alt text](Pictures_Source/Screenshot%202024-10-25%20133548.png)
 
 - có n + m đỉnh và m x n cạnh, là ma trận (n + m) x (m x n)
 - Ma trận mij bằng 1 khi đỉnh vi là đầu mút của cạnh ej
@@ -59,7 +59,7 @@
   - Kích thước ma trận |v|.|e|
   - mij thuộc {0, 1}
 
-![alt text](Screenshot%202024-10-25%20134310.png)
+![alt text](Pictures_Source/Screenshot%202024-10-25%20134310.png)
 
 - Mỗi cột trong ma trận chỉ có ít nhất 1 và nhiều nhất 2 số 1
   - Nếu cột có 1 số 1 thì nó là khuyên, còn 2 số 1 thì bình thường
@@ -96,7 +96,7 @@
 **Đồ thị vô hướng**
 
 - gọi là liên thông thì ta hai đỉnh bất kì phải có đường đi giữa chúng.
-  ![alt text](Screenshot%202024-10-25%20142522.png)
+  ![alt text](Pictures_Source/Screenshot%202024-10-25%20142522.png)
 - G1 là liên thông
 - G2 k phải là liên thông, nó có thể tách ra thành nhiều địa bàn
 - Hình thứ 3 cũng k liên thông nhưng các thành phần đc tách ra thì liên thông vs nhau
@@ -109,7 +109,7 @@
 
   - K phải liên thông mạnh và bỏ đi chiều và nó thành 1 đồ thị vô hướng liên thông thì nó là liên thông yếu
 
-![alt text](Screenshot%202024-10-25%20143114.png)
+![alt text](Pictures_Source/Screenshot%202024-10-25%20143114.png)
 
 - G là liên thông mạnh
 - H là liên thông yếu
@@ -170,11 +170,11 @@ Một đồ thị có chu trình Hamilton khi:
 
 ## Bài toán tối ưu (Tính đường đi ít tốn time nhất và hoặc có chi phí thấp nhất)
 
-![alt text](./Screenshot%202024-10-29%20135626.png)
-![alt text](<./att.s7hw4co1fk5Y8SccuhIVrN5MgdCxdF_mhbZ3jKdbr44%20(1).jpg>)
+![alt text](Pictures_Source/Screenshot%202024-10-29%20135626.png)
+![alt text](<Pictures_Source/att.s7hw4co1fk5Y8SccuhIVrN5MgdCxdF_mhbZ3jKdbr44%20(1).jpg>)
 
-![alt text](./Screenshot%202024-10-29%20141232.png)
-![alt text](./att._u3zg-TSlHXGELBH2jqxfvoj3kXrJDxpwN5i__Lm5M0.jpg)
+![alt text](Pictures_Source/Screenshot%202024-10-29%20141232.png)
+![alt text](Pictures_Source/att._u3zg-TSlHXGELBH2jqxfvoj3kXrJDxpwN5i__Lm5M0.jpg)
 
 - Ta đi từ điểm nào thì điểm đó ban đầu bằng 0
 - Các đỉnh chưa đi tới thì sẽ là vô cùng
