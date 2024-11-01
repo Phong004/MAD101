@@ -115,7 +115,7 @@ What is the average number of bits?</br>
     |i|101|
     |18|111100100111110111|
 
-    Avg bits = $$\frac{15}{7}$$ \approx 2.14 bits$$
+    Avg bits = $$\frac{15}{7} \approx 2.14 bits$$
 
 - **Duyệt cây**
 - *Pre-Order* là duyệt gốc -> trái -> phải
