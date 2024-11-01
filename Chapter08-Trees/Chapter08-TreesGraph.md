@@ -1,11 +1,10 @@
-(setq markdown-css-paths '("Chapter08.css"))
 ## Đồ thị cây
 - **Định nghĩa**
 - Cây là một đồ thị vô hướng liên thông mà không có chu trình đơn.
     + Liên thông vô hướng
     + Không có chu trình đơn
 
-<img src="Pictures_Source/Screenshot 2024-11-02 002855.png" alt="Tree Graph" class="custom-img">
+<img src="Pictures_Source/Screenshot 2024-11-02 002855.png" alt="Tree Graph">
 
 - **Định lý**
 - Một đồ thị vô hướng là cây ...
@@ -13,7 +12,7 @@
 - **Định nghĩa**
 - Một cây có gốc là cây có một đỉnh là gốc và mỗi cạnh đi ra trực tiếp từ gốc.
 
-<img src="Pictures_Source\Screenshot 2024-11-02 003946.png" alt="Root Tree" class="custom-img">
+<img src="Pictures_Source\Screenshot 2024-11-02 003946.png" alt="Root Tree">
 
 ## Cây m phân
 - **Định nghĩa**
