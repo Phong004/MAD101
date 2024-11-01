@@ -43,5 +43,5 @@
 - *Height* là *level* tối đa của các đỉnh.
 ![Cây có gốc có level và height]()
 - **Định lý**
-- Với một cây m-phân thì $$l <= m^th => h >= log_m(l)$$
+- Với một cây m-phân thì $$l <= m^(th) => h >= log_m(l)$$
 
