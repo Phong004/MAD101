@@ -12,7 +12,7 @@
 - **Định nghĩa**
 - Một cây có gốc là cây có một đỉnh là gốc và mỗi cạnh đi ra trực tiếp từ gốc.
 
-<img src="Pictures_Source\Screenshot 2024-11-02 003946.png" alt="Root Tree" style="width:300px;height:auto;">
+<img src="Pictures_Source\Screenshot 2024-11-02 003946.png" alt="Root Tree" style="width:600px;height:auto;">
 
 ## Cây m phân
 - **Định nghĩa**
