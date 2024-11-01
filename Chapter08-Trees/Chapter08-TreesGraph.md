@@ -70,6 +70,22 @@
     |o|00|
 <table>
     <tr>
+        <td>1</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>e</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>g</td>
+        <td>01</td>
+    </tr>
+    <tr>
+        <td>o</td>
+        <td>00</td>
+    </tr>
+    <tr>
         <td colspan="2">12</td>
     </tr>
 </table>
