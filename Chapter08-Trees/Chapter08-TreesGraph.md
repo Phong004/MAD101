@@ -51,16 +51,21 @@
 - **Định nghĩa**
 - Mã tiền tố là mã mà sâu bit mã hóa không chứa các giá trị bị trùng lặp.
 - **Thuật toán Huffman**
+    
     google      ASCII=6 * 8 = 48 bits
+    
     Bước 1:
     |char|g|o|l|e|
     |----|-|-|-|-|
     |freq|$$\frac{2}{6}$$|$$\frac{2}{6}$$|$$\frac{1}{6}$$|$$\frac{1}{6}$$|
+    
     Bước 2:
+    
     ![Biểu đồ cây Huffman]()
     |l|11|
     |e|10|
     |g|01|
     |o|00|
     |12 bits|
+    
     $$\frac{48}{12} = 4$$
