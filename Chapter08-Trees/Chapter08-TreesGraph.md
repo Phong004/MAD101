@@ -57,6 +57,11 @@
 - **Định nghĩa**
 - Mã tiền tố là mã mà sâu bit mã hóa không chứa các giá trị bị trùng lặp.
 - **Thuật toán Huffman**
+    1. Tìm tần số xuất hiện của mỗi ký tự
+    2. Cấu trúc 1 cây nhị phân biểu diễn mã tiền tố của ký tự.
+    **Notes:**
+    - Sắp xếp tần số từ nhỏ tới lớn sau mỗi bước
+    - Cây con có trọng số lớn nằm bên trái của cây nhị phân.
     
     google      ASCII=$$6 * 8$$ = 48 bits
     
@@ -67,26 +72,27 @@
     
     Bước 2:
     
-    ![Biểu đồ cây Huffman]()
+    ![Biểu đồ cây Huffman](<Pictures_Source/image.png>)
 <table style="align:center;">
     <tr>
+        <td>o</td>
         <td>1</td>
-        <td>11</td>
-    </tr>
-    <tr>
-        <td>e</td>
-        <td>10</td>
     </tr>
     <tr>
         <td>g</td>
         <td>01</td>
     </tr>
     <tr>
-        <td>o</td>
-        <td>00</td>
+        <td>l</td>
+        <td>001</td>
     </tr>
     <tr>
-        <td colspan="2"><p style="text-align:center;">12</p></td>
+        <td>e</td>
+        <td>000</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>011101001000</td>
     </tr>
 </table>
 
