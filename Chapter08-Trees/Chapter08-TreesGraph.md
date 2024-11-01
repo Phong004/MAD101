@@ -1,8 +1,4 @@
 ## Đồ thị cây
-<script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
 - **Định nghĩa**
 - Cây là một đồ thị vô hướng liên thông mà không có chu trình đơn.
     + Liên thông vô hướng
