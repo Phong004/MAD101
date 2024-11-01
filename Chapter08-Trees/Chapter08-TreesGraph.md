@@ -3,12 +3,17 @@
 - Cây là một đồ thị vô hướng liên thông mà không có chu trình đơn.
     + Liên thông vô hướng
     + Không có chu trình đơn
+
+![Đồ thị cây](Pictures_Source\Screenshot 2024-11-02 002855.png =300x200)
+
 - **Định lý**
 - Một đồ thị vô hướng là cây ...
 ## Cây có gốc
 - **Định nghĩa**
 - Một cây có gốc là cây có một đỉnh là gốc và mỗi cạnh đi ra trực tiếp từ gốc.
-![Cây có gốc]()
+
+![Cây có gốc](Pictures_Source\Screenshot 2024-11-02 003946.png =300x200)
+
 ## Cây m phân
 - **Định nghĩa**
 - Một cây có gốc gọi là một cây m phân nếu mỗi giao điểm không có nhiều hơn m con
