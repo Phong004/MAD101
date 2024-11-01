@@ -86,7 +86,7 @@
         <td>00</td>
     </tr>
     <tr>
-        <td colspan="2" style="text-align:center;">12</td>
+        <td colspan="2" style="text-align: center;">12</td>
     </tr>
 </table>
 
