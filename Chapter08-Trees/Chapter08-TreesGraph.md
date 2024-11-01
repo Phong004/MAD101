@@ -38,10 +38,17 @@
 
 ## Chiều cao và cấp của cây có gốc
 - **Định nghĩa**
-- *Level* của một đỉnh trong một cây có gốc là chiều dài từ một gốc tới một đỉnh
+- *Level (mức)* của một đỉnh trong một cây có gốc là chiều dài từ một gốc tới một đỉnh
 - *Level of the root* định nghĩa là 0
 - *Height* là *level* tối đa của các đỉnh.
 ![Cây có gốc có level và height]()
 - **Định lý**
-- Với một cây m-phân thì $$l <= m^{th} => h >= log_m(l)$$
-
+- Với một cây m-phân thì $$l \leq m^{th} => h \ge log_m(l)$$
+## Cây nhị phân
+- **Định nghĩa**
+- Cây nhị phân là cây có cây con trái chứa các giá trị nhỏ hơn giá trị gốc và cây con phải chứa các giá trị lớn hơn cây con phải.
+## Mã tiền tố
+- **Định nghĩa**
+- Mã tiền tố là mã mà sâu bit mã hóa không chứa các giá trị bị trùng lặp.
+- **Cách lưu**
+-
