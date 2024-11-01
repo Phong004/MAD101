@@ -64,6 +64,7 @@
     ![Biểu đồ cây Huffman]()
 
     |l|11|
+    |-|--|
     |e|10|
     |g|01|
     |o|00|
@@ -71,3 +72,7 @@
     |12 bits|
     
     $$\frac{48}{12} = 4$$
+- **Duyệt cây**
+- *Pre-Order* là duyệt gốc -> trái -> phải
+- *In-Order* là duyệt từ trái -> phải (nhỏ đến lớn)
+- *Post-Order* là duyệt trái -> phải -> gốc
