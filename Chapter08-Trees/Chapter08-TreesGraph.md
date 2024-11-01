@@ -4,7 +4,7 @@
     + Liên thông vô hướng
     + Không có chu trình đơn
 
-![Đồ thị cây](Pictures_Source\Screenshot 2024-11-02 002855.png =300x200)
+![Đồ thị cây]("Pictures_Source\Screenshot 2024-11-02 002855.png")
 
 - **Định lý**
 - Một đồ thị vô hướng là cây ...
