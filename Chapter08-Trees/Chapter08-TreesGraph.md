@@ -109,6 +109,7 @@ What is the average number of bits?</br>
     ![Binary Tree](<Pictures_Source/Screenshot 2024-11-02 031459.png>)
 
     |m|0|
+    |-|-|
     |a|111|
     |u|100|
     |x|110|
