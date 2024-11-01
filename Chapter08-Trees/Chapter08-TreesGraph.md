@@ -4,6 +4,7 @@
     + Liên thông vô hướng
     + Không có chu trình đơn
 <img src="Pictures_Source/Screenshot 2024-11-02 002855.png" alt="Tree Graph">
+
 - **Định lý**
 - Một đồ thị vô hướng là cây ...
 
@@ -45,9 +46,12 @@
 - ***Level (mức)*** của một đỉnh trong một cây có gốc là chiều dài từ một gốc tới một đỉnh
 - ***Level of the root*** định nghĩa là 0
 - ***Height*** là ***level*** tối đa của các đỉnh.
-![Cây có gốc có level và height]()
+
+![Cây có gốc có level và height](<Pictures_Source/Screenshot 2024-11-02 at 00-41-01 Chapter 8 Trees - MAD101 - Chapter08_MAD.png>)
+
 - **Định lý**
-- Với một cây m-phân thì $$l \leq m^{th} => h \ge log_m(l)$$
+- Với một cây m-phân thì</br>
+    $$l \leq m^{th} => h \ge \ceil*{\log_m(l)}\$$
 ## Cây nhị phân
 - **Định nghĩa**
 - Cây nhị phân là cây có cây con trái chứa các giá trị nhỏ hơn giá trị gốc và cây con phải chứa các giá trị lớn hơn cây con phải.
