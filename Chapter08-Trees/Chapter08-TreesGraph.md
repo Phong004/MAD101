@@ -68,7 +68,11 @@
     |e|10|
     |g|01|
     |o|00|
-    |12 bits||
+<table>
+    <tr>
+        <td colspan="2">12</td>
+    </tr>
+</table>
     
     $$\frac{48}{12} = 4$$
 - **Duyệt cây**
