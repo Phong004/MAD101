@@ -10,7 +10,7 @@
     + Liên thông vô hướng
     + Không có chu trình đơn
 
-<img src="Pictures_Source/Screenshot 2024-11-02 002855.png" alt="Tree Graph" class="custom-img>
+<img src="Pictures_Source/Screenshot 2024-11-02 002855.png" alt="Tree Graph" class="custom-img">
 
 - **Định lý**
 - Một đồ thị vô hướng là cây ...
