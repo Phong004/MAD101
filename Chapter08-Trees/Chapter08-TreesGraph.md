@@ -68,7 +68,7 @@
     Bước 2:
     
     ![Biểu đồ cây Huffman]()
-<table>
+<table style="align:center;">
     <tr>
         <td>1</td>
         <td>11</td>
@@ -86,7 +86,7 @@
         <td>00</td>
     </tr>
     <tr>
-        <td colspan="2" style="text-align: center;">12</td>
+        <td colspan="2"><p style="text-align:center;">12</p></td>
     </tr>
 </table>
 
