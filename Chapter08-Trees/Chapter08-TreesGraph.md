@@ -89,8 +89,7 @@
         <td colspan="2">12</td>
     </tr>
 </table>
-    
-    $$\frac{48}{12} = 4$$
+$$\frac{48}{12} = 4$$
 - **Duyệt cây**
 - *Pre-Order* là duyệt gốc -> trái -> phải
 - *In-Order* là duyệt từ trái -> phải (nhỏ đến lớn)
