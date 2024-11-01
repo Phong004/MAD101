@@ -36,7 +36,7 @@
         l = 55 - 11 = 44</br>
     - **VD 2: How many leaves are there in a full 5-ary tree with 56 nodes?**</br>
         m = 3 (full), l = 27</br>
-        $$i = \frac{l - 1} / \frac{m - 1} = 13$$</br>
+        $$i = \frac{l - 1}{m - 1} = 13$$</br>
         |E| = $$13 * 3$$ = 39</br>
         n = 39 + 1 = 40</br>
 ### Chiều cao và cấp của cây có gốc
@@ -63,7 +63,8 @@
     - Sắp xếp tần số từ nhỏ tới lớn sau mỗi bước
     - Cây con có trọng số lớn nằm bên trái của cây nhị phân.
     
-    google      ASCII=$$6 * 8$$ = 48 bits
+1. **VD1:** Use Huffman coding algorithm to encode the word “google”</br>
+    google      ASCII = $$6 * 8$$ = 48 bits
     
     Bước 1:
     |char|g|o|l|e|
@@ -95,8 +96,27 @@
         <td>011101001000</td>
     </tr>
 </table>
+$$\frac{48}{12}=4$$
 
-$$\frac{48}{12} = 4$$
+2. **VD2:** Use Huffman coding algorithm to encode the text “maximum”. 
+What is the average number of bits?</br>
+    maximum     ASCII = $$7*8$$ = 56 bits
+    
+    |char|m|a|x|i|u|
+    |----|-|-|-|-|-|
+    |freq|$$\frac{3}{7}$$|$$\frac{1}{7}$$|$$\frac{1}{7}$$|$$\frac{1}{7}$$|$$\frac{1}{7}$$|
+
+    ![Binary Tree](<Pictures_Source/Screenshot 2024-11-02 031459.png>)
+
+    |m|0|
+    |a|111|
+    |u|100|
+    |x|110|
+    |i|101|
+    |18|111100100111110111|
+
+    Avg bits = $$\frac{15}{7}$$ \approx 2.14 bits$$
+
 - **Duyệt cây**
 - *Pre-Order* là duyệt gốc -> trái -> phải
 - *In-Order* là duyệt từ trái -> phải (nhỏ đến lớn)
