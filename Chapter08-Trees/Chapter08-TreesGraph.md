@@ -74,28 +74,14 @@
     Bước 2:
     
     ![Biểu đồ cây Huffman](<Pictures_Source/image.png>)
-<table style="align:center;">
-    <tr>
-        <td>o</td>
-        <td>1</td>
-    </tr>
-    <tr>
-        <td>g</td>
-        <td>01</td>
-    </tr>
-    <tr>
-        <td>l</td>
-        <td>001</td>
-    </tr>
-    <tr>
-        <td>e</td>
-        <td>000</td>
-    </tr>
-    <tr>
-        <td>12</td>
-        <td>011101001000</td>
-    </tr>
-</table>
+
+    |o|1|
+    |-|-|
+    |g|01|
+    |l|001|
+    |e|000|
+    |12|011101001000|
+    
 $$\frac{48}{12}=4$$
 
 2. **VD2:** Use Huffman coding algorithm to encode the text “maximum”. 
@@ -114,7 +100,7 @@ What is the average number of bits?</br>
     |u|100|
     |x|110|
     |i|101|
-    |18|111100100111110111|
+    |15|011111010101000|
 
     Avg bits = $$\frac{15}{7} \approx 2.14 bits$$
 
