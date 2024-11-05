@@ -130,6 +130,8 @@ Exp:
 ## Spa. Trees
 - Cây là cấu trúc tối ưu nhất của một đồ thị.
 
-<img src="Pictures_Source/Screenshot 2024-11-05 132926.png" width="400" height="300">
-=>
-<img src="Pictures_Source/Screenshot 2024-11-05 133148.png" width="400" height="300"></br>
+<img src="Pictures_Source/Screenshot 2024-11-05 132926.png" width="400" height="300"> => <img src="Pictures_Source/Screenshot 2024-11-05 133148.png" width="400" height="300"></br>
+
+**Tìm kiếm chiều sâu**
+1. Chọn 1 đỉnh bất kỳ trong đồ thị là root.
+2. Tại gốc đó, chọn đúng 1 hướng đi hết tới nốt lá rồi backtracking về vị trí liền trước đó liên tục tới khi hết cây.
