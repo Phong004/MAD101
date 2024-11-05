@@ -138,7 +138,7 @@ What is the average number of bits?</br>
 
 ***Exp**:
 
-<img src="Pictures_Source/Screenshot 2024-11-05 134728.png" width="400" height="200"> <img src="Pictures_Source/z6001532525210_d7642baebe7ed00f376e20dc5165a70d.jpg">
+<img src="Pictures_Source/Screenshot 2024-11-05 134728.png" width="400" height="200"> <img src="Pictures_Source/z6001532525210_d7642baebe7ed00f376e20dc5165a70d.jpg" width="300" height="3000>
 
 **TÌm kiếm chiều rộng**
 - Tương tự nhu Tìm kiếm chiều sâu, nhưng tìm theo bậc của nút.
