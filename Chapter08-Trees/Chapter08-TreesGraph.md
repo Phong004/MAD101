@@ -104,7 +104,16 @@ What is the average number of bits?</br>
 
     Avg bits = $$\frac{15}{7} \approx 2.14 bits$$
 
-- **Duyệt cây**
-- *Pre-Order* là duyệt gốc -> trái -> phải
-- *In-Order* là duyệt từ trái -> phải (nhỏ đến lớn)
-- *Post-Order* là duyệt trái -> phải -> gốc
+## Duyệt cây
+- **Định nghĩa** là duyệt qua tất cả các đỉnh của cây *có gốc*.
+- *Pre-Order* là duyệt gốc -> trái -> phải (N -> L -> R)
+- *In-Order* là duyệt từ trái -> phải (nhỏ đến lớn) (L -> N -> R)
+- *Post-Order* là duyệt trái -> phải -> gốc (L -> R -> N)
+    **Note**: 
+    - N: Root node
+    - L: Left subtree
+    - R: Right substree
+    ![Tree Traversal](<Pictures_Source/Screenshot 2024-11-02 151657.png>)
+    - 
+
+
