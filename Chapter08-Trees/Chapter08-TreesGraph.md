@@ -117,7 +117,7 @@ What is the average number of bits?</br>
 ## Biểu diễn biểu thức
 **Note**:
 - ↑ : mũ cơ số
-Exp:
+***Exp***:
 1. What is the ordered rooted tree that represents the expression ((x + y) ↑ 2) + ((x − 4)/3)?
 ![Ví dụ 1](<Pictures_Source/Screenshot%202024-11-05%20125048.png>)
 - **Prefix form**: + x y (x phép toán với y)
@@ -130,8 +130,35 @@ Exp:
 ## Spa. Trees
 - Cây là cấu trúc tối ưu nhất của một đồ thị.
 
-<img src="Pictures_Source/Screenshot 2024-11-05 132926.png" width="400" height="300"> => <img src="Pictures_Source/Screenshot 2024-11-05 133148.png" width="400" height="300"></br>
+<img src="Pictures_Source/Screenshot 2024-11-05 132926.png" width="400" height="300"> <img src="Pictures_Source/Screenshot 2024-11-05 133148.png" width="400" height="300"></br>
 
 **Tìm kiếm chiều sâu**
 1. Chọn 1 đỉnh bất kỳ trong đồ thị là root.
 2. Tại gốc đó, chọn đúng 1 hướng đi hết tới nốt lá rồi backtracking về vị trí liền trước đó liên tục tới khi hết cây.
+
+***Exp**:
+
+<img src="Pictures_Source/Screenshot 2024-11-05 134728.png" width="400" height="200"> <img src="Pictures_Source/z6001532525210_d7642baebe7ed00f376e20dc5165a70d.jpg>
+
+**TÌm kiếm chiều rộng**
+- Tương tự nhu Tìm kiếm chiều sâu, nhưng tìm theo bậc của nút.
+
+## Min.Span.Trees
+- Một cây sinh nhỏ nhất khi tổng tất cả các cạnh là nhỏ nhất.
+**Thuật toán Prim**
+1. Sắp xếp thứ tự tăng dần các giá trị. Trong số các cạnh có giá trị nhỏ nhất chọn ra 1 trong số chúng làm cạnh bắt đầu.
+2. Quan sát tất cả các cạnh kề với nó, cạnh nào có giá trị nhỏ tiếp theo thì mình chọn miễn là không tạo thành chu trình đơn.
+***Exp***:
+![Ví dụ](Pictures_Source/Screenshot%202024-11-05%20135946.png)
+
+***//Thêm ảnh và bảng slide 81 vào.***
+
+**Thuật toán Kruskal**
+1. Sếp từ nhỏ đến lớn. Có bao nhiêu cạnh nhỏ nhất lấy ra hết miễn không tạo thành chu trình đơn.
+2. Có bao nhiêu có giá trị nhỏ thứ hai thì cho vào hết miễn không tạo thành chu trình đơn.
+3. so on... Cho đến khi kết thúc thuật toán.
+***Exp***:
+![Ví dụ](Pictures_Source/Screenshot%202024-11-05%20135946.png)
+
+***//Thêm ảnh slide 89 vào.***
+
