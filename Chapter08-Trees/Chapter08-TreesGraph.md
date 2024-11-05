@@ -149,6 +149,7 @@ What is the average number of bits?</br>
 1. Sắp xếp thứ tự tăng dần các giá trị. Trong số các cạnh có giá trị nhỏ nhất chọn ra 1 trong số chúng làm cạnh bắt đầu.
 2. Quan sát tất cả các cạnh kề với nó, cạnh nào có giá trị nhỏ tiếp theo thì mình chọn miễn là không tạo thành chu trình đơn.
 ***Exp***:
+
 ![Ví dụ](Pictures_Source/Screenshot%202024-11-05%20135946.png)
 
 ***//Thêm ảnh và bảng slide 81 vào.***
@@ -158,6 +159,7 @@ What is the average number of bits?</br>
 2. Có bao nhiêu có giá trị nhỏ thứ hai thì cho vào hết miễn không tạo thành chu trình đơn.
 3. so on... Cho đến khi kết thúc thuật toán.
 ***Exp***:
+
 ![Ví dụ](Pictures_Source/Screenshot%202024-11-05%20135946.png)
 
 ***//Thêm ảnh slide 89 vào.***
