@@ -114,6 +114,22 @@ What is the average number of bits?</br>
     - L: Left subtree
     - R: Right substree
     ![Tree Traversal](<Pictures_Source/Screenshot 2024-11-02 151657.png>)
-    - 
+## Biểu diễn biểu thức
+**Note**:
+- ↑ : mũ cơ số
+Exp:
+1. What is the ordered rooted tree that represents the expression ((x + y) ↑ 2) + ((x − 4)/3)?
+![Ví dụ 1](<Pictures_Source/Screenshot%202024-11-05%20125048.png>)
+- **Prefix form**: + x y (x phép toán với y)
+- **Infix form**: x + y 
+- **Postfix form**: x y + (x phép toán với y)
+=> Cần phải xác định Operator, X, Y trước để xác định Tiền tố, Trung tố và Hậu tố (Toán tử nằm đầu thì là tiền tố, toán tử nằm cuối thì là hậu tố). Vẽ chiều mũi tên hướng về phép toán.
+**Solution**:
+- **Prefix**: rà từ phải qua trái, gặp phép toán thì viết lại liền sau là x, liền sau x là y.
+- **Postfix**: rà từ trái sang phải, gặp phép toán thì dừng lại viết theo thứ tự liền trước là y, liền trước y là x.
+## Spa. Trees
+- Cây là cấu trúc tối ưu nhất của một đồ thị.
 
-
+<img src="Pictures_Source/Screenshot 2024-11-05 132926.png" width="400" height="300">
+=>
+<img src="Pictures_Source/Screenshot 2024-11-05 133148.png" width="400" height="300"></br>
