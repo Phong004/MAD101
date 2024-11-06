@@ -6,7 +6,7 @@
 ![Tree Graph](<Pictures_Source/Screenshot 2024-11-02 002855.png>)
 
 - **Định lý**
-- Một đồ thị vô hướng là cây ...
+- Một đồ thị vô hướng là cây khi chỉ khi có duy nhất đường đi đơn lẻ giữa 2 đỉnh của nó.
 ## Cây có gốc
 - **Định nghĩa**
 - Một cây có gốc là cây có một đỉnh là gốc và mỗi cạnh đi ra trực tiếp từ gốc.
@@ -153,7 +153,20 @@ What is the average number of bits?</br>
 
 ![Ví dụ](Pictures_Source/Screenshot%202024-11-05%20135946.png)
 
-***//Thêm ảnh và bảng slide 81 vào.***
+<img src="Pictures_Source/Screenshot 2024-11-06 235332.png" width="400" height="300"> 
+|Choice|Edge|Weight|
+|:---:|:---:|:---:|
+|1|{b,f}|1|
+|2|{a,b}|2|
+|3|{f,i}|2|
+|4|{a,e}|3|
+|5|{j,i}|3|
+|6|{f,g}|3|
+|7|{c,g}|2|
+|8|{c,d}|1|
+|9|{g,h}|3|
+|10|{h,i}|3|
+|11|{i,k}|1|
 
 **Thuật toán Kruskal**
 1. Sếp từ nhỏ đến lớn. Có bao nhiêu cạnh nhỏ nhất lấy ra hết miễn không tạo thành chu trình đơn.
