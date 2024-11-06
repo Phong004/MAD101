@@ -1,6 +1,6 @@
 
 Root
-├── Child 1
+|- Child 1
 │   ├── Grandchild 1
 │   └── Grandchild 2
 ├── Child 2
