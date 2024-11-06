@@ -22,4 +22,4 @@
 
 **Height and Level**
 - A rooted m-ary is balanced if all leaves are at levels h or h-1.
-- $$l\le\m^h -> h\ge\lceil\log_m(l)\rceil$$ 
+- $$l\lem^h -> h\ge\lceil\log_m(l)\rceil$$ 
