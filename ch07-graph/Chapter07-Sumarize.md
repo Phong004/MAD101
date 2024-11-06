@@ -18,6 +18,6 @@ graph TD
 ```
 ## Types of graphs
 
-| Graph | \|V\| | Degree |
-|:---:  | :---: |  :---: |
+| Graph | \|V\| | \|E\| | Degree |
+|:---:  | :---: | :---: |  :---: |
 |$$K_n, n \ge 1$$|n|$$\frac{n*(n-1)}{2}$$|deg(u) = n-1, $$\forall u \in V$$
