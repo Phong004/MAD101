@@ -18,13 +18,44 @@ graph TD
 ```
 ## Types of graphs
 
-| Graph | \|V\| | \|E\| | Degree |
-|:---:  | :---: | :---: |---   |
-|$$K_n, n \ge 1$$|n|$$\frac{n*(n-1)}{2}$$|deg(u) = n-1, $$\forall u \in V$$|
-|$$K_{m, n} \ge 1$$|$$m+n$$|$$m*n$$|$$deg(u) = n, \forall u \in V_1; deg(v) = m, \forall v \in V_2$$|
-|$$C_n, n \ge 3$$|n|n|deg(u) = 2, $$\forall u \in V$$|
-|$$W_n, n \ge 3$$|$$n+1$$|n|$$deg(u) = 3, \forall u \in C_n; deg(*) = n$$|
-|$$Q_n, n \ge 1$$|$$2^n$$|$$n*2^{n-1}$$|deg(u) = n|
+<table>
+    <tr>
+        <th>Graph</th>
+        <th>|V|</th>
+        <th>|E|</th>
+        <th>Degree</th>
+    </tr>
+    <tr>
+        <th>$$K_n, n \ge 1$$</th>
+        <td>n</td>
+        <td>$$\frac{n*(n-1)}{2}$$</td>
+        <td>deg(u) = n-1, $$\forall u \in V$$</td>
+    </tr>
+    <tr>
+        <th>$$K_{m, n} \ge 1$$</th>
+        <td>$$m+n$$</td>
+        <td>$$m*n$$</td>
+        <td>$$deg(u) = n, \forall u \in V_1</br>deg(v) = m, \forall v \in V_2$$</td>
+    </tr>
+    <tr>
+        <th>$$C_n, n \ge 3$$</th>
+        <td>n</td>
+        <td>n</td>
+        <td>deg(u) = 2, $$\forall u \in V$$</td>
+    </tr>
+    <tr>
+        <th>$$W_n, n \ge 3$$</th>
+        <td>$$n+1$$</td>
+        <td>n</td>
+        <td>$$deg(u) = 3, \forall u \in C_n</br>deg(*) = n$$</td>
+    </tr>
+    <tr>
+        <th>$$Q_n, n \ge 1$$</th>
+        <td>$$2^n$$</td>
+        <td>$$n*2^{n-1}$$</td>
+        <td>deg(u) = n</td>
+    </tr>
+</table>
 
 ## Bipartite graphs
 - Make colors two adjacent edges differently colored.
