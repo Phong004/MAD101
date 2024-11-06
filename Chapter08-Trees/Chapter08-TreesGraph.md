@@ -7,28 +7,28 @@
 
 - **Định lý**
 - Một đồ thị vô hướng là cây khi chỉ khi có duy nhất đường đi đơn lẻ giữa 2 đỉnh của nó.
-## Cây có gốc
+### Cây có gốc
 - **Định nghĩa**
 - Một cây có gốc là cây có một đỉnh là gốc và mỗi cạnh đi ra trực tiếp từ gốc.
 ![Root tree](<Pictures_Source/Screenshot 2024-11-02 003946.png>)
 
-## Cây m phân
+### Cây m phân
 - **Định nghĩa**
-- Một cây có gốc gọi là một cây m phân nếu mỗi giao điểm không có nhiều hơn m con
-- Một cây gọi là m phân đủ nếu mỗi giao điểm có chính xác m con.
+- Một cây có gốc gọi là một cây m phân nếu mỗi nút trong không có nhiều hơn m con
+- Một cây gọi là m phân đủ nếu mỗi nút trong có chính xác m con.
 - Một cây m phân với m=2 được gọi là nhị phân.
 ![m-arry tree](<Pictures_Source/Screenshot 2024-11-02 004017.png>)
-- Một cây có gốc có thứ tự là cây có các con của giao điểm là có thứ tự
+- Một cây có gốc có thứ tự là cây có các con của nút trong là có thứ tự
 ![Ordered Tree](<Pictures_Source/Screenshot 2024-11-02 004034.png>)
-- **Tính chất**
+## Tính chất
 1. Một cây có n đỉnh có n-1 cạnh
 2. Với mọi cây m phân</br>
     n = i + l
 3. Với mọi cây m phân đủ</br>
     n = $$m*i$$ + 1</br>
     l = $$(m - 1)*i$$ + 1
-- n là số nodes
-- i là số giao điểm
+- n là số nút
+- i là số nút trong
 - l là số lá
     - **VD 1: How many leaves are there in a full 5-ary tree with 56 nodes?**</br>
         m = 5 (full), n = 56</br>
@@ -39,7 +39,7 @@
         $$i = \frac{l - 1}{m - 1} = 13$$</br>
         |E| = $$13 * 3$$ = 39</br>
         n = 39 + 1 = 40</br>
-### Chiều cao và cấp của cây có gốc
+#### Chiều cao và cấp của cây có gốc
 - **Định nghĩa**
 - ***Level (mức)*** của một đỉnh trong một cây có gốc là chiều dài từ một gốc tới một đỉnh
 - ***Level of the root*** định nghĩa là 0
@@ -49,7 +49,7 @@
 - Một cây m-phân có chiều cao *h* cân bằng khi tất cả các nút lá đều nằm tại *h* hoặc *h-1*
 - Với một cây m-phân thì</br>
     $$l \leq m^{h} => h \ge \lceil\log_m(l)\rceil$$
-## Cây nhị phân
+### Cây nhị phân
 - **Định nghĩa**
 - Cây nhị phân là cây có cây con trái chứa các giá trị nhỏ hơn giá trị gốc và cây con phải chứa các giá trị lớn hơn cây con phải.
 
