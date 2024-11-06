@@ -35,7 +35,7 @@ graph TD
         <th>$$K_{m, n} \ge 1$$</th>
         <td>$$m+n$$</td>
         <td>$$m*n$$</td>
-        <td>$$deg(u) = n, \forall u \in V_1</br>deg(v) = m, \forall v \in V_2$$</td>
+        <td>$$deg(u) = n, \forall u \in V_1$$</br>$$deg(v) = m, \forall v \in V_2$$</td>
     </tr>
     <tr>
         <th>$$C_n, n \ge 3$$</th>
@@ -47,7 +47,7 @@ graph TD
         <th>$$W_n, n \ge 3$$</th>
         <td>$$n+1$$</td>
         <td>n</td>
-        <td>$$deg(u) = 3, \forall u \in C_n</br>deg(*) = n$$</td>
+        <td>$$deg(u) = 3, \forall u \in C_n$$</br>$$deg(*) = n$$</td>
     </tr>
     <tr>
         <th>$$Q_n, n \ge 1$$</th>
