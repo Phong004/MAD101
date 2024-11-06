@@ -1,6 +1,6 @@
 ## Các dạng đồ thị
 
-![alt text](Pictures_Source/ch07-picture.jpg)
+<img src="Pictures_Source/ch07-picture.jpg" width="700" height="500">
 
 ## Đồ thị lưỡng phân (Bipartite)
 
