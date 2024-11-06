@@ -1,7 +1,7 @@
 # Trees
 ## Properties of the tree
 
-<table>
+<table style="margin-left: auto; margin-right: auto;">
     <tr>
         <th style="text-align:center;">Trees</th>
         <th style="text-align:center;">m-ary</th>
