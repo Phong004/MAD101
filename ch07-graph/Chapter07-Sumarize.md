@@ -34,18 +34,26 @@ graph TD
     - All this kind of matrix is square - symmetric, the values are not less than 0.
     - The main diagonal is the number of loops.
     - The degree of a vertex is determined by the sum of the row or column in matrix (the value of the main diagonal is doubled).
+
+    |     |$v_1$|$v_2$|$v_{...}$|$v_n$|
+    |:---:|:---:|:---:|:---:|:---:|
+    |$v_1$|-|-|-|-|
+    |$v_2$|-|-|-|-|
+    |$v_{...}$|-|-|-|-|
+    |$v_n$|-|-|-|-|
+
 3. Using incidence matrix:
     - The column is the sequence of the vertices, and the row is the sequence of the edges.
     - The entry $$m_{i,j} = 1$$ where $$v_i$$ is a node of $$e_j$$
     - The size of the matrix: |v|.|e|
     - $$m_{i,j} \in {0,1}$$
 
-|$$e_1$$|$$e_2$$|$$e_{...}$$|$$e_i$$|
-|:-----:|:-----:|:---------:|:-----:|
-|$$v_1$$| - | - | - |
-|$$v_2$$| - | - | - |
-|$$v_{...}$$| - | - | - |
-|$$v_j$$| - | - | - |
+    |       |$$e_1$$|$$e_2$$|$$e_{...}$$|$$e_m$$|
+    |:-----:|:-----:|:-----:|:---------:|:-----:|
+    |$$v_1$$| - | - | - |
+    |$$v_2$$| - | - | - |
+    |$$v_{...}$$| - | - | - |
+    |$$v_n$$| - | - | - |
 
 ## Isormophism of graphs
 - There exists a bijection f from $$V_1$$ to $$V_2$$ and vice versa -> They are same the number of vertices, number of edges, degree.
@@ -73,3 +81,7 @@ G is a simple graph with n $$\ge$$ 3 vertices
 |:-----:|-----------------------------------------
 |Dirac  |$$\forall v_i, deg(v_i) \ge \frac{n}{2}$$|
 |Ore|$$\forall u, \forall v, non-adjacent, deg(u) + deg(v) \ge n$$|
+
+## Dijkstra's algorithm
+
+***[SEE HERE](ch07-graph.md)***
