@@ -40,11 +40,11 @@
 1. DFS - Depth-First Search (backtracking)
 2. BFS - Breadth-First Search (level)
 ## Min. Spa. Tree
-1. **Prim's Algorithm**:
-   Step 1: Choosing any smallest weight edge and putting it into the spanning tree.
-   Step 2: Repeatly - that are incident to a vertex already in tree, but never forming a simple circuit.
-   Step 3: When |E| = n-1, stop.
-2. **Kruskal's Algorithm**:
-   Step 1: Choose an edge with minimum weight.
-   Step 2: Add edges with minimum weight, but never forming a simple circuit.
-   Step 3: When |E| = 1, stop.
+1. **Prim's Algorithm**:</br>
+   Step 1: Choosing any smallest weight edge and putting it into the spanning tree.</br>
+   Step 2: Repeatly - that are incident to a vertex already in tree, but never forming a simple circuit.</br>
+   Step 3: When |E| = n-1, stop.</br>
+2. **Kruskal's Algorithm**:</br>
+   Step 1: Choose an edge with minimum weight.</br>
+   Step 2: Add edges with minimum weight, but never forming a simple circuit.</br>
+   Step 3: When |E| = 1, stop.</br>
