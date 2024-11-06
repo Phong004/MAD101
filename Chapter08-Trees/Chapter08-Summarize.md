@@ -1,7 +1,7 @@
 # Trees
 ## Properties of the tree
 
-<table">
+<table>
     <tr>
         <th>Trees</th>
         <th>m-ary</th>
