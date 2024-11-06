@@ -1,21 +1,21 @@
 # Trees
 ## Properties of the tree
 
-<table style="margin-left: auto; margin-right: auto;">
+<table">
     <tr>
-        <th style="text-align:center;">Trees</th>
-        <th style="text-align:center;">m-ary</th>
-        <th style="text-align:center;">full m-ary</th>
+        <th>Trees</th>
+        <th>m-ary</th>
+        <th>full m-ary</th>
     </tr>
     <tr>
-        <td colspan="3" style="text-align:center;">|E| = n - 1</td>
+        <td colspan="3">|E| = n - 1</td>
     </tr>
     <tr>
-        <td colspan="3" style="text-align:center;">n = i + l</td>
+        <td colspan="3">n = i + l</td>
     </tr>
     <tr>
         <td></td>
         <td></td>
-        <td style="text-align:center;">$$n=m*i+1$$</td>
+        <td>$$n=m*i+1$$</br>$$l=(m-1)*i+1$$</td>
     </tr>
 </table>
