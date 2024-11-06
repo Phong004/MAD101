@@ -62,8 +62,8 @@ graph TD
 - Its removal will produce disconnected subgraphs from original connected graph.
 ## Euler paths and circuit (|V| $$\ge$$ 2)
 
-| Path | Circuit |
-|:---:|:---:|
+|     | Path | Circuit |
+|-----|:---:|:---:|
 |Condition| No odd degree | Exactly 2 vertices of odd degree |
 
 ## Hamilton paths and circuits
