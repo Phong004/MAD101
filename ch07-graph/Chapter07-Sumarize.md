@@ -13,7 +13,7 @@ graph TD
     I[Directed Multi-graph] --> H[Allowed Loops]
     B[Directed graph] --> F[Mixed graph]
     F[Mixed graph] --> G[Allowed Multi-edge]
-    F[Mixed graph] --> H[Allowed Loops}
+    F[Mixed graph] --> H[Allowed Loops]
 ```
 ```mermaid
 graph TD
