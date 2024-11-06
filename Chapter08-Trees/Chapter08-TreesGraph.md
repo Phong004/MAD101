@@ -10,7 +10,7 @@
 ## Cây có gốc
 - **Định nghĩa**
 - Một cây có gốc là cây có một đỉnh là gốc và mỗi cạnh đi ra trực tiếp từ gốc.
-![Root tree](<Pictures_Source\Screenshot 2024-11-02 003946.png>)
+![Root tree](<Pictures_Source/Screenshot 2024-11-02 003946.png>)
 
 ## Cây m phân
 - **Định nghĩa**
