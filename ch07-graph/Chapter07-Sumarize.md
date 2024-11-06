@@ -57,7 +57,7 @@ graph TD
     - **Strongly connected**: there is a path from a to b and vice versa whenever a and b are vertices of the graph.
     - **Weekly connected**: there is always a path between 2 vertices when the directions of the edges are disregraded.
 ## Counting paths between vertices
-- Let A is a *adjacency matrix*, the number of different paths of **length r** from *$$v_i$$* to *$$v_j$$* **equals to the $$(i, j)_r$$ entry of $$A^{r}$$** ($$r \gt 0$$).
+- Let A is a *adjacency matrix*, the number of different paths of **length r** from * $$v_i$$ * to *$$v_j$$* **equals to the $$(i, j)_r$$ entry of $$A^{r}$$** ($$r \gt 0$$).
 ## Cut vertex & Cut edge
 - Its removal will produce disconnected subgraphs from original connected graph.
 ## Euler paths and circuit (|V| $$\ge$$ 2)
