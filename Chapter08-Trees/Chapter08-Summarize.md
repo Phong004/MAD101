@@ -16,6 +16,11 @@
     <tr>
         <td></td>
         <td></td>
-        <td>$$n=m*i+1$$</br>$$l=(m-1)*i+1$$</td>
+        <td>$$n=m*i+1$$</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>$$l=(m-1)*i+1$$</td>
     </tr>
 </table>
