@@ -68,8 +68,8 @@ graph TD
 
 ## Hamilton paths and circuits
 G is a simple graph with n $$\ge$$ 3 vertices
-- ***Theorem***:
-|       |   |
-|:-----:|---|
+
+|**Name**| **Theorem**  |
+|:-----:|-----------------------------------------
 |Dirac  |$$\forall v_i, deg(v_i) \ge \frac{n}{2}$$|
 |Ore|$$\forall u, \forall v, non-adjacent, deg(u) + deg(v) \ge n$$|
