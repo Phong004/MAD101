@@ -28,3 +28,22 @@ graph TD
 
 ## Bipartite graphs
 - Make colors two adjacent edges differently colored.
+## Representing graphs
+1. Using adjacency list:
+2. Using adjacency Matrix:
+    - All this kind of matrix is square - symmetric, the values are not less than 0.
+    - The main diagonal is the number of loops.
+    - The degree of a vertex is determined by the sum of the row or column in matrix (the value of the main diagonal is doubled).
+3. Using incidence matrix:
+    - The column is the sequence of the vertices, and the row is the sequence of the edges.
+    - The entry $$m_{i,j} = 1$$ where $$v_i$$ is a node of $$e_j$$
+    - The size of the matrix: |v|.|e|
+    - $$m_{i,j} \in {0,1}$$
+
+|$$e_1$$|$$e_2$$|$$e_{...}$$|$$e_i$$|
+|-------|:-----:|:---------:|:-----:|
+|$$v_1$$| - | - | - |
+|$$v_2$$| - | - | - |
+|$$v_{...}$$| - | - | - |
+|$$v_j$$| - | - | - |
+
