@@ -29,9 +29,9 @@
    - Sort by freq from small to large
    - The larger weight sub-tree is on the left of the binary tree
 ## Tree Traversal
-1. Pre-Order: <span style="color:red;">N</span> -> L -> R
-2. In-Order: L -> <span style="color:red;">N</span> -> R
-3. Post-Order: R -> P -> <span style="color:red;">N</span>
+1. Pre-Order: ${\color{red}N}$ -> L -> R
+2. In-Order: L -> ${\color{red}N}$ -> R
+3. Post-Order: R -> P -> ${\color{red}N}$
 ## Representing the expression
 1. *Prefix*: + x y
 2. *Infix*: x + y
