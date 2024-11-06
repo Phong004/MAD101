@@ -178,5 +178,5 @@ What is the average number of bits?</br>
 
 ![Ví dụ](Pictures_Source/Screenshot%202024-11-05%20135946.png)
 
-***//Thêm ảnh slide 89 vào.***
+<img src="Pictures_Source/Screenshot 2024-11-07 000540.png" width="700" height="500">
 
