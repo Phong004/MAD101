@@ -145,6 +145,7 @@ What is the average number of bits?</br>
 
 ## Min.Span.Trees
 - Một cây sinh nhỏ nhất khi tổng tất cả các cạnh là nhỏ nhất.
+
 **Thuật toán Prim**
 1. Sắp xếp thứ tự tăng dần các giá trị. Trong số các cạnh có giá trị nhỏ nhất chọn ra 1 trong số chúng làm cạnh bắt đầu.
 2. Quan sát tất cả các cạnh kề với nó, cạnh nào có giá trị nhỏ tiếp theo thì mình chọn miễn là không tạo thành chu trình đơn.
