@@ -151,9 +151,7 @@ What is the average number of bits?</br>
 
 ***Exp***:
 
-![Ví dụ](Pictures_Source/Screenshot%202024-11-05%20135946.png)
-
-<img src="Pictures_Source/Screenshot 2024-11-06 235332.png" width="400" height="300"> 
+![Ví dụ](Pictures_Source/Screenshot%202024-11-05%20135946.png) <img src="Pictures_Source/Screenshot 2024-11-06 235332.png" width="400" height="300"> 
 
 |Choice|Edge|Weight|
 |:---:|:---:|:---:|
