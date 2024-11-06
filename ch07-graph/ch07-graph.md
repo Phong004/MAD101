@@ -171,7 +171,7 @@ Một đồ thị có chu trình Hamilton khi:
 ## Bài toán tối ưu (Tính đường đi ít tốn time nhất và hoặc có chi phí thấp nhất)
 
 ![alt text](Pictures_Source/Screenshot%202024-10-29%20135626.png)
-![alt text](<Pictures_Source/att.s7hw4co1fk5Y8SccuhIVrN5MgdCxdF_mhbZ3jKdbr44%20(1).jpg>)
+<img src="Pictures_Source/att.s7hw4co1fk5Y8SccuhIVrN5MgdCxdF_mhbZ3jKdbr44%20(1).jpg" width = "700" height="600">
 
 ![alt text](Pictures_Source/Screenshot%202024-10-29%20141232.png)
 ![alt text](Pictures_Source/att._u3zg-TSlHXGELBH2jqxfvoj3kXrJDxpwN5i__Lm5M0.jpg)
