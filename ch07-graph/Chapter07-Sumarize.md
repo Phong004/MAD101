@@ -22,7 +22,7 @@ graph TD
 |:---:  | :---: | :---: |:---:   |
 |$$K_n, n \ge 1$$|n|$$\frac{n*(n-1)}{2}$$|deg(u) = n-1, $$\forall u \in V$$|
 |$$C_n, n \ge 3$$|n|n|deg(u) = 2, $$\forall u \in V$$|
-|$$W_n, n \ge 3$$|$$n+1$$|n|deg(u) = 3, $$\forall u \in C_n$$\br deg($$*$$) = n|
+|$$W_n, n \ge 3$$|$$n+1$$|n|deg(u) = 3, $$\forall u \in C_n$$<\br> deg($$*$$) = n|
 |$$Q_n, n \ge 1$$|$$2^n$$|$$n*2^{n-1}$$|deg(u) = n|
 
 ## Bipartite graphs
