@@ -31,7 +31,7 @@
 ## Tree Traversal
 1. Pre-Order: ${\color{red}N}$ -> L -> R
 2. In-Order: L -> ${\color{red}N}$ -> R
-3. Post-Order: R -> P -> ${\color{red}N}$
+3. Post-Order: L -> R -> ${\color{red}N}$
 ## Representing the expression
 1. *Prefix*: + x y
 2. *Infix*: x + y
