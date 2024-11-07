@@ -81,10 +81,10 @@ graph TD
 
     |       |$$e_1$$|$$e_2$$|$$e_{...}$$|$$e_m$$|
     |:-----:|:-----:|:-----:|:---------:|:-----:|
-    |$$v_1$$| - | - | - |
-    |$$v_2$$| - | - | - |
-    |$$v_{...}$$| - | - | - |
-    |$$v_n$$| - | - | - |
+    |$$v_1$$| - | - | - | - |
+    |$$v_2$$| - | - | - | - |
+    |$$v_{...}$$| - | - | - | - |
+    |$$v_n$$| - | - | - | - |
 
 ## Isormophism of graphs
 - There exists a bijection f from $$V_1$$ to $$V_2$$ and vice versa -> They are same the number of vertices, number of edges, degree.
