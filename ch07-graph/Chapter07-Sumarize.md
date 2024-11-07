@@ -2,13 +2,13 @@
 ```mermaid
 graph TD
     A[Undirected graph] --> D[Multi-graph]
-    D[Multi-graph] --> G[Allowed Multi-edge]
     A[Undirected graph] --> E[Pseudo-graph]
+    D[Multi-graph] --> G[Allowed Multi-edge]
     E[Pseudo-graph] --> G[Allowed Multi-edge]
-    E[Pseudo-graph] --> H[Allowed Loops]
     F[Mixed graph] --> G[Allowed Multi-edge]
-    F[Mixed graph] --> H[Allowed Loops]
     I[Directed Multi-graph] --> G[Allowed Multi-edge]
+    E[Pseudo-graph] --> H[Allowed Loops]
+    F[Mixed graph] --> H[Allowed Loops]
     I[Directed Multi-graph] --> H[Allowed Loops]
     A[Undirected graph] --> F[Mixed graph]
     A[Undirected graph] --> C[Simple graph]
