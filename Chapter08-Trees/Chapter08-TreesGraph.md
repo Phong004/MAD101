@@ -33,8 +33,8 @@
     - **VD 1: How many leaves are there in a full 5-ary tree with 56 nodes?**</br>
         m = 5 (full), n = 56</br>
         $$i = \frac{n - 1}{m} = 11$$</br>
-        l = 55 - 11 = 44</br>
-    - **VD 2: How many leaves are there in a full 5-ary tree with 56 nodes?**</br>
+        l = 56 - 11 = 45</br>
+    - **VD 2: How many vertices are there in a full ternary (3-ary) tree with 27 leaves**</br>
         m = 3 (full), l = 27</br>
         $$i = \frac{l - 1}{m - 1} = 13$$</br>
         |E| = $$13 * 3$$ = 39</br>
