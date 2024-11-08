@@ -89,6 +89,9 @@ graph TD
 ## Isormophism of graphs
 - There exists a bijection f from $$V_1$$ to $$V_2$$ and vice versa -> They are same the number of vertices, number of edges, degree.
 - If the sphere discards a point, it is isormophic with the flat.
+  *The way to identify*:
+  1. Check whether they are same number of edges, number of vertices, the sequence of degree.
+  2. If true, check whether adjacent vertices are same.
 ## Connectedness
 1. Undirected graph:
     - There exists a path between the distinct vertices of the graph.
