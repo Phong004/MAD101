@@ -16,7 +16,7 @@
 1. ***Tautology***: là mệnh đề phức luôn đúng không phụ thuộc chân trị của biến. -> 2 mệnh đề p và q tương đương logic $$p\equiv q$$
 2. ***Contradiction***: là một mệnh đề phức luôn sai.
 3. ***Contingency***: là một mệnh đề đúng, sai phụ thuộc chân trị của biến.
-![Some logical equivalences](<Picture_Source/Screenshot 2024-11-13 224747.png>)
+![Some logical equivalences](<Pictures_Source/Screenshot 2024-11-13 224747.png>)
 **Following claims:**
 1. $$p\rightarrow q\equiv\neg p\lor q$$
 2. $$(p\rightarrow q)\lor(q\rightarrow r)\equiv p\rightarrow(q\lor r)$$
@@ -32,7 +32,7 @@
 2. Existential quantifier: $$\exists xP(x)\equiv$$ "There exists an element $$x\in U$$ s.t. P(x)"
 3. Uniqueness quantifier: $$\exists!xP(x)\equiv$$ " There exists a unique $$x\in U$$ such that P(x) is true"
 - **Lượng từ lồng nhau** khẳng định rằng có hữu hạn các lượng từ mà tại đó một lượng từ nằm trong tầm của lượng từ khác.
-![The order of quantifiers](<Picture_Source/Screenshot 2024-11-13 234525.png>)
+![The order of quantifiers](<Pictures_Source/Screenshot 2024-11-13 234525.png>)
 **Phủ định lượng từ lồng nhau**
   1. Dịch dấu phủ định sang phải ($$\neg$$)
   2. Thay $$forall$$ bằng $$\exists$$ và ngược lại.
