@@ -16,4 +16,5 @@
 1. ***Tautology***: là mệnh đề phức luôn đúng không phụ thuộc chân trị của biến. -> 2 mệnh đề p và q tương đương logic $$p\equiv q$$
 2. ***Contradiction***: là một mệnh đề phức luôn sai.
 3. ***Contingency***: là một mệnh đề đúng, sai phụ thuộc chân trị của biến.
-![Some logical equivalences](Pictures/Screenshot 2024-11-13 224747.png)
+![Some logical equivalences](<Pictures/Screenshot 2024-11-13 224747.png>)
+
