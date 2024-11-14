@@ -8,7 +8,7 @@
 - Nếu S là hữu hạn, $$|2^S|=2^{|S|}$$ (nếu |S|=n, thì $$|2^S|=2^n$$)
 ## Cartesian Product
 - Tích chéo của 2 tập A và B là $$A\times B=\\{(a,b):a\in A\land b\in B\\}$$
-- A, B fininte -> $$|A\times B=|A||B|$$
+- A, B fininte -> $$|A\times B|=|A||B|$$
 ## Set operations
 - Union: $$A\cup B=\\{x:x\in A\lor x\in B\\}$$
 - Intersection $$A\cap B=\\{x:x\in A\land x\in B\\}$$
