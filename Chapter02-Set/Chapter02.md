@@ -23,7 +23,7 @@
 ![](<Pictures_Source/Screenshot 2024-11-14 090929.png>)
 ## Functions
 - Hàm số f là một quy luật gán mỗi phần tử x trong A chính xác cho một phần tử y=f(x) trong B
-- ![](<Pictures_Source/Screenshot 2024-11-14 091316.png>)
+  ![](<Pictures_Source/Screenshot 2024-11-14 091316.png>)
 - A là tập xác định (domain), B là miền con (codomain) của f
 - b=f(a) là ảnh của a và a là tiền ánh xạ của b.
 - Tập xác định của f là tập $$\\{f(a),a\in A\\}
