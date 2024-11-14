@@ -33,6 +33,7 @@
 3. Uniqueness quantifier: $$\exists!xP(x)\equiv$$ " There exists a unique $$x\in U$$ such that P(x) is true"
 - **Lượng từ lồng nhau** khẳng định rằng có hữu hạn các lượng từ mà tại đó một lượng từ nằm trong tầm của lượng từ khác.
 ![The order of quantifiers](<Pictures_Source/Screenshot 2024-11-13 234525.png>)
+
 **Phủ định lượng từ lồng nhau**
   1. Dịch dấu phủ định sang phải ($$\neg$$)
   2. Thay $$forall$$ bằng $$\exists$$ và ngược lại.
